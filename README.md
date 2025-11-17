@@ -10,10 +10,12 @@ The model in question for this project is the [Transfuser](https://github.com/au
 
 To ensure as little variety as possible, our environment setup will be solely based on the README found in the [Transfuser](https://github.com/autonomousvision/transfuser) github folder. However, in our case, we have containerized the application for easier collaboration and environment isolation.
 
-To build the environment on your machine, simply run ...
-```
-$ docker compose up -d
-```
+1. Clone the Transfuser git repository.
 
-... and follow the instructions in transfuser/README.md.
+2. To build the environment on your machine, simply run ...
+    ```
+    $ docker compose up -d
+    ```
+
+    ... and follow the instructions in transfuser/README.md.
 
