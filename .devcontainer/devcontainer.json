@@ -1,0 +1,11 @@
+{
+    "name": "Transfuser Env",
+    "dockerComposeFile": "../docker-compose.yaml",
+    "service": "transfuser-env",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-python.python"]
+        }
+    }
+}
